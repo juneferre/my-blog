@@ -20,7 +20,7 @@ Depending on your file type, you import your data by clicking on an option under
 ##### **Step 1: Choosing the File Format**
 Look on the blue panel on the left of the screen and select the file format under the "To a File" subheading. 
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.png)
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg)
 
 ##### **Step 2: Selecting your Data**
 Navigate to your file, select, and click the "open" button.
