@@ -33,7 +33,8 @@ After importing the data, you'll be looking at a screen that looks something lik
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg)
 
-#### **Bar Chart**
+
+### **Bar Chart**
 The first visualization we are going to make is a Bar Chart. Bar charts are most useful when comparing categorical data or ranking items. Making a bar chart in Tableau is pretty fool proof!
 
 
@@ -53,5 +54,17 @@ Drag and drop these variables from the "Table" section to the "Rows" and "Column
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg)
 
+The picture below is what your bar chart might look like.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg)
+
 #### **Step 3: Adjust the Aesthetics** 
 
+##### **Removing an element**
+If you have an element you would like to exclude, Tableau's interface makes it quite easy to remove it. 
+
+Click on the bar you'd like removed and click "exclude" as shown below
+
+The picture below is what your bar chart might look like.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg)
