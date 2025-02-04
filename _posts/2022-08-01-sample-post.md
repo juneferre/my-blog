@@ -4,7 +4,7 @@ layout: post
 title: "Tableau Data Visualizations for Beginners"
 author: "June Ferre"
 description: "A quick tutorial on 3 basic Tableau Data Visualizations"
-image: image: /assets/images/post1/tableau.jpg
+image: /assets/images/post1/tableau.jpg
 
 ---
 
@@ -53,5 +53,5 @@ Drag and drop these variables from the "Table" section to the "Rows" and "Column
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg)
 
-#### **Step 3: Drag and drop** 
-Next 
+#### **Step 3: Adjust the Aesthetics** 
+
