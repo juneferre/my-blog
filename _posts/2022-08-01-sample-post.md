@@ -4,7 +4,7 @@ layout: post
 title: "Tableau Data Visualizations for Beginners"
 author: "June Ferre"
 description: "A quick tutorial on 3 basic Tableau Data Visualizations"
-image: "/Users/juneferre/winter2025/stat386/wizard_june.JPG"
+image: ""
 
 ---
 
@@ -15,5 +15,24 @@ Tableau is one of the most common data visualization tools used in a variety of 
  This tutorial is assuming you already have Tableau downloaded. If you're completely new to Tableau, I recommend you go watch [this YouTube video](https://www.youtube.com/watch?v=QYnkudCxbmE) on how to download Tableau Desktop and learn the basic navigation within Tableau. 
 
 ### Importing Data 
-Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen. My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data). 
+Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen. My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my Palmer Penguin data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data). 
 
+#### Step 1:
+Look on the blue panel on the left of the screen and select the file format under the "To a File" subheading. 
+
+#### Step 2: 
+Navigate to your file, select, and click the "open" button.
+
+### Data Visualizations
+After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". 
+
+#### Bar Chart
+The first visualization we are going to make is a Bar Chart. Bar charts are most useful when comparing categorical data or ranking items. Making a bar chart in Tableau is pretty fool proof!
+
+##### Step 1:
+Come up with a question you might have about the categorical data. I'm looking at if there is a signifcant difference in flipper lengths between sexes within a penguin species. 
+
+##### Step 2:
+Choose the categories you want to compare. I'm choosing three variables: species and sex (belonging to the column variables) and flipper length as our row variable. 
+
+##### Steop 3: Drag and drop 
