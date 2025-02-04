@@ -16,3 +16,4 @@ image: "/Users/juneferre/winter2025/stat386/wizard_june.JPG"
 
 <h3> Importing Data </h3>
     <p> Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen. My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my data from <a href="https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data">kaggle</a>. </p>
+
