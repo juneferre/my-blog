@@ -15,5 +15,5 @@ Tableau is one of the most common data visualization tools used in a variety of 
  This tutorial is assuming you already have Tableau downloaded. If you're completely new to Tableau, I recommend you go watch [this YouTube video](https://www.youtube.com/watch?v=QYnkudCxbmE) on how to download Tableau Desktop and learn the basic navigation within Tableau. 
 
 ### Importing Data 
-    Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen. My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data). 
+Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen. My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data). 
 
