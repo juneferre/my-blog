@@ -86,4 +86,19 @@ AFTER:
 
 There are many more ways to alter and change your graphic! Feel free to explore a few, like the size or label. 
 
+#### **Saving Your Work**
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/savingbar.jpg)
 
+### **Line Graph**
+Line graphs are most appropriate for visualizing data trends overtime. 
+
+For this graph, we are going to use [the Superstore Sales dataset from Tableau](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..).
+
+Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Here are some pictures down below of what it might look like fore you!
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sheet1forline.jpg)
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/linechart.jpg)
+
+### **Scatter Plot**
+Scatter plots are best for showing relationships between two variables, detecting outliers, or identifying trends or patterns. 
