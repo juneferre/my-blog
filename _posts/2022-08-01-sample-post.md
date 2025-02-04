@@ -85,3 +85,5 @@ AFTER:
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg)
 
 There are many more ways to alter and change your graphic! Feel free to explore a few, like the size or label. 
+
+
