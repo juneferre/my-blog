@@ -60,7 +60,7 @@ The picture below is what your bar chart might look like.
 
 #### **Step 3: Adjust the Aesthetics** 
 
-##### **Removing an element**
+#### **Removing an element**
 If you have an element you would like to exclude, Tableau's interface makes it quite easy to remove it. 
 
 Click on the bar you'd like removed and click "exclude" as shown below
@@ -68,3 +68,20 @@ Click on the bar you'd like removed and click "exclude" as shown below
 The picture below is what your bar chart might look like.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg)
+
+After:
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/afterExcludingOrange.jpg)
+
+#### **Changing the colors**
+To change the bar colors, you click on the "Color" box in the "Marks" box.
+
+Follow the arrows to walk you through how to change the colors. 
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/changingBarcolor.jpg)
+
+AFTER: 
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg)
+
+There are many more ways to alter and change your graphic! Feel free to explore a few, like the size or label. 
