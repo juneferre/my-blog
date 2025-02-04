@@ -25,9 +25,11 @@ Look on the blue panel on the left of the screen and select the file format unde
 ##### **Step 2: Selecting your Data**
 Navigate to your file, select, and click the "open" button.
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg)
 
 ### **Data Visualizations**
 After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". 
+
 
 
 #### **Bar Chart**
