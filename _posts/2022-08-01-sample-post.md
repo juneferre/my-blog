@@ -98,9 +98,8 @@ Line graphs are most appropriate for visualizing data trends overtime.
 
 For this graph, we are going to use [the Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data.
 
-Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Here are some pictures down below of what it might look like for you!
+Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Down below is an example of what it might look like for you!
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sheet1forline.jpg)
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/linechart.jpg)
 
