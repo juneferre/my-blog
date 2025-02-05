@@ -108,12 +108,56 @@ For this pie chart I'm going to be using the [Superstore Sales dataset](https://
 ### **Step 1: Grab the dimmension you're going to use to separate the pie chart with**
 I'm going to grab the "Segment" and drag and drop it into the "Color" box. 
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/segment.jpg)
 
+AFTER:
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/aftersegment.jpg)
 
 ### **Step 2: Specify that you want a Pie Chart**
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/makepie.jpg)
+
+AFTER
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/pie.jpg)
 
 ### **Step 3: Select Metric you want to drive you Pie Chart**
 
 I'm going to choose "Sales" and drag and drop it onto "Detail".
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/salesDet.jpg)
+
+
+### **Step 4: Change the Sales to Percentage of Total**
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/changetoPOT.jpg)
+
+### **Step 5: Change the angle**
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sumtoangle.jpg)
+
+### **Step 5: Make labels**
+Move the metric to the label box to make a metric label. In my case, I'm using Sales.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sumtolabel.jpg)
+
+AFTER
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/label.jpg)
+
+#### **Changing Views**
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/bigview.jpg)
+
+### **Adding More Labels**
+You can add the dimmension label too!
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabel.jpg)
+
+After:
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabelafter.jpg)
+
+### **Finsished Product**
+This is a very basic pie chart, but can get the job done if needs be!
