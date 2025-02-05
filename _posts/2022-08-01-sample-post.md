@@ -92,13 +92,28 @@ There are many more ways to alter and change your graphic! Feel free to explore 
 ### **Line Graph**
 Line graphs are most appropriate for visualizing data trends overtime. 
 
-For this graph, we are going to use [the Superstore Sales dataset from Tableau](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..).
+For this graph, we are going to use [the Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data.
 
-Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Here are some pictures down below of what it might look like fore you!
+Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Here are some pictures down below of what it might look like for you!
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sheet1forline.jpg)
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/linechart.jpg)
 
-### **Scatter Plot**
-Scatter plots are best for showing relationships between two variables, detecting outliers, or identifying trends or patterns. 
+### **Pie Chart**
+Pie Charts are made slightly differently than line graphs and bar charts and are used to show part-to-whole relationships, emphasizing proportions. 
+
+For this pie chart I'm going to be using the [Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data again. 
+
+### **Step 1: Grab the dimmension you're going to use to separate the pie chart with**
+I'm going to grab the "Segment" and drag and drop it into the "Color" box. 
+
+
+
+### **Step 2: Specify that you want a Pie Chart**
+
+
+### **Step 3: Select Metric you want to drive you Pie Chart**
+
+I'm going to choose "Sales" and drag and drop it onto "Detail".
+
