@@ -166,5 +166,7 @@ After:
 ### **Finsished Product**
 This is a very basic pie chart, but can get the job done if needs be!
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/finished.jpg)
+
 ## **That's All**
 I hope you found this basic tutorial helpful, I challenge you to go find another dataset and try making these graphics with your data! 
