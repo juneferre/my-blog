@@ -20,7 +20,11 @@ Depending on your file type, you import your data by clicking on an option under
 #### **Step 1: Choosing the File Format**
 Look on the blue panel on the left of the screen and select the file format under the "To a File" subheading. 
 
+My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my Palmer Penguin data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data).
+
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg)
+
+
 
 
 #### **Step 2: Selecting your Data**
