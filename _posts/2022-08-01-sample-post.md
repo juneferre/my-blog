@@ -9,20 +9,17 @@ image: /assets/images/post1/tableau.jpg
 ---
 
 ### **What is Tableau?** 
-Tableau is one of the most common data visualization tools used in a variety of industries, like finance, healthcare, retail, and technology, to help make data-driven decisions. Its is a platform that allows you to create interactive dashboards by taking raw data and transforming it into understandable visualizations with minimal coding–if any. This tutorial is going to cover how to make 3 basic visualizations–a bar chart, line chart, and scatter plot–in Tableau. 
+Tableau is one of the most common data visualization tools used in a variety of industries, like finance, healthcare, retail, and technology, to help make data-driven decisions. Its is a platform that allows you to create interactive dashboards by taking raw data and transforming it into understandable visualizations with minimal coding–if any. This tutorial is going to cover how to make 3 basic visualizations–a bar chart, line chart, and pie chart–in Tableau, as these are some of the most fundamental ways to present data. 
 
-### **Downloading Tableau and Basic Navigation**
- This tutorial is assuming you already have Tableau downloaded. If you're completely new to Tableau, I recommend you go watch [this YouTube video](https://www.youtube.com/watch?v=QYnkudCxbmE) on how to download Tableau Desktop and learn the basic navigation within Tableau. 
+#### **Downloading Tableau and Basic Navigation**
+ This tutorial is assuming you already have Tableau downloaded. If you're completely new to Tableau, I recommend you go watch [this YouTube video](https://www.youtube.com/watch?v=QYnkudCxbmE) on how to download Tableau Desktop and learn the basic navigation within the interface. I also wanted to preface that I'm using a Mac in this tutorial, so if you're using a Windows, steps might be slightly different.
 
-### **Importing Data** 
-Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen.  
+### **Importing Data**  
 
 #### **Choosing the File Format and Selecting your Data**
-Look on the blue panel on the left of the screen and select the file format under the "To a File" subheading. 
+While in the Home Screen of Tableau, you're going to locate the blue "Connect" sidebar on the left. Under the "To a File" subheading, choose the appropriate option for your data type. 
 
-I got my Palmer Penguin data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data), which is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. 
-
-To select your data, you're going to navigate to your file on your computer, select the file, and click the "open" button. 
+My data (from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data)),  is in a .csv file, so I'm using the “more” option and navigate to my data file on my computer. Upon finding the data, you select the data file, and click the "open" button. 
 
 
 <p align="center">
@@ -31,13 +28,17 @@ To select your data, you're going to navigate to your file on your computer, sel
 </p>
 
 
-#### **Data Visualizations**
+
+
+### **Data Visualizations**
 
 After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". This will take you to the page where we can make data visualizations.  
 
 <p align='center'>
     <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg" alt="Description" style="width:70%; height:auto;">
 </p>
+
+
 
 
 ### **Bar Chart**
@@ -62,6 +63,8 @@ Drag and drop these variables from the "Table" section to the "Rows" and "Column
 </p>
 
 
+
+
 #### **Step 3: Adjust the Aesthetics** 
 
 #### **Removing an element**
@@ -75,6 +78,8 @@ Click on the bar you'd like removed and click "exclude" as shown below, and bam.
 </p>
 
 
+
+
 #### **Changing the colors**
 Changing the colors on the bar graphs is simple! You're first going to click on the box with colored dots, then press edit colors, select the column you want to change, and choose your color! If that didn't make sense, the image below on the left has some arrows to guide you through the process! The image on the right is the final product. 
 
@@ -82,6 +87,8 @@ Changing the colors on the bar graphs is simple! You're first going to click on 
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changingBarcolor.jpg" width="60%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg" width="30%" style="display: inline-block;">
 </p>
+
+
 
 
 Changing the aesthetics of your graphics is a great way to display your creativity as well as stay organized and consistent in your data presentation. There are many more ways to alter and change your graphic! Feel free to explore a few, like the size or label. 
@@ -97,6 +104,8 @@ Luckily making bar charts and line charts are essentially the same processs, so 
 <p align='center'>
     <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/linechart.jpg" alt="Description" style="width:70%; height:auto;">
 </p>
+
+
 
 
 ### **Pie Chart**
@@ -115,6 +124,8 @@ You want to grab the element of "dimmension" you want the pie chart to be separa
 </p>
 
 
+
+
 ### **Step 2: Specify that you want a Pie Chart**
 
 Next, you're going to specifiy that you'll be using a pie chart. To do this you're going to select the arrow next to the "Automatic" drop down menu in the Marks box. Navigate to "Pie" and select it. You should end up with a pie chart separated into three equal parts (as shown on the right).
@@ -124,6 +135,9 @@ Next, you're going to specifiy that you'll be using a pie chart. To do this you'
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/pie.jpg" width="50%" style="display: inline-block;">
 </p>
 
+
+
+
 #### **Optional: Changing the Segment Separator**
 
 I want to make my pie chart segments a little clearer, so I'm going to change my separating line to white. This is a matter of preference, so not necessary. Follow the arrows below to change the separators!
@@ -132,6 +146,9 @@ I want to make my pie chart segments a little clearer, so I'm going to change my
     <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/separators.jpg" alt="Description" style="width:50%; height:auto;">
 </p>
 
+
+
+
 ### **Step 3: Select Metric you want to drive your Pie Chart**
 
 I want to separate my pie chart by the Sales categories, so I'm going to select the "Sales" and drag and drop it onto "Detail". This is going to add Sales to the Angle, which will segment the pie chart proportional to the sum of sales for each category. 
@@ -139,6 +156,8 @@ I want to separate my pie chart by the Sales categories, so I'm going to select 
 <p align='center'>
     <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/salesDet.jpg" alt="Description" style="width:50%; height:auto;">
 </p>
+
+
 
 
 ### **Step 4: Change the Sales to Percentage of Total**
@@ -150,6 +169,9 @@ To do this, you're going to click the arrow on the "SUM(Sales)". On that drop do
 <p align='center'>
     <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changetoPOT.jpg" alt="Description" style="width:40%; height:auto;">
 </p>
+
+
+
 
 It will look like no changes have been made to the pie chart, but don't worry! We're going to fix that in the next step. 
 
@@ -163,6 +185,8 @@ To change the angle proportions, you're going to drag the "SUM(angle)" element t
 </p>
 
 
+
+
 ### **Step 6: Making labels**
 
 A pie chart without labels or a legend, would be pretty meaningless, so we're going to add labels. We'll do this by dragging the metric (Sales) to the label box to make a metric label. You're labels will look like the screenshot on the right. 
@@ -171,6 +195,8 @@ A pie chart without labels or a legend, would be pretty meaningless, so we're go
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/sumtolabel.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/label.jpg" width="45%" style="display: inline-block;">
 </p>
+
+
 
 
 #### **Changing Views**
@@ -183,6 +209,8 @@ We are now going to change the view of the pie chart to make it look bigger. To 
 </p>
 
 
+
+
 ### **Adding More Labels**
 The numbers aren't very interpretable just on their own, so we are going to add the dimmension label too, to enhance clarity. 
 
@@ -192,6 +220,8 @@ To do that we are going to drag the "Segment" element to the Label box. You're f
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabel.jpg" width="40%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/finished.jpg" width="50%" style="display: inline-block;">
 </p>
+
+
 
 
 ## **That's It! You did it!**
