@@ -26,8 +26,8 @@ To select your data, you're going to navigate to your file on your computer, sel
 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="20%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="70%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="25%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="60%" style="display: inline-block;">
 </p>
 
 
@@ -35,11 +35,13 @@ To select your data, you're going to navigate to your file on your computer, sel
 
 After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". This will take you to the page where we can make data visualizations.  
 
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg" alt="Description" style="width:65%; height:auto;">
+
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg)
 
 
 ### **Bar Chart**
-The first visualization we are going to make is a Bar Chart. Bar charts are most useful when comparing categorical data or ranking items. Making a bar chart in Tableau is pretty fool proof!
+The first visualization we are going to make is a Bar Chart. Bar charts are most useful when comparing categorical data or ranking items. Making a bar chart in Tableau is pretty fool proof, so lets get into it!
 
 
 #### **Step 1: Ask a Question**
@@ -50,31 +52,28 @@ If you're following along with the Palmer Penguins dataset, my question is if th
 
 
 #### **Step 2: Choose Categories then Drag and Drop**
-Choose the categories you want to compare. 
-
-I'm choosing three variables: species and sex (belonging to the column variables) and flipper length as our row variable. 
+Now you're going to choose the categories you want to compare! I'm choosing three variables: species and sex (belonging to the column variables) and flipper length as our row variable. 
 
 Drag and drop these variables from the "Table" section to the "Rows" and "Columns" boxes
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg)
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg.jpg" width="25%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="60%" style="display: inline-block;">
+</p>
 
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg)
 
 #### **Step 3: Adjust the Aesthetics** 
 
 #### **Removing an element**
 If you have an element you would like to exclude, Tableau's interface makes it quite easy to remove it. 
 
-Click on the bar you'd like removed and click "exclude" as shown below
+Click on the bar you'd like removed and click "exclude" as shown below, and bam. It's gone. Below is a side by side of before (left) and after (right). 
 
-The picture below is what your bar chart might look like.
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg.jpg" width="25%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/afterExcludingOrange.jpg" width="60%" style="display: inline-block;">
+</p>
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg)
-
-After:
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/afterExcludingOrange.jpg)
 
 #### **Changing the colors**
 To change the bar colors, you click on the "Color" box in the "Marks" box.
