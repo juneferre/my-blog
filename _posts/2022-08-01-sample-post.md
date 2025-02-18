@@ -33,7 +33,7 @@ Navigate to your file, select, and click the "open" button.
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg)
 
 ### **Data Visualizations**
-After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". 
+After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". This will take you to the page where we can make data visualizations.  
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg)
 
@@ -56,11 +56,9 @@ I'm choosing three variables: species and sex (belonging to the column variables
 
 Drag and drop these variables from the "Table" section to the "Rows" and "Columns" boxes
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg)
+| ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg) | ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg) |
+|-------------------------------------------|-----------------------------------------|
 
-The picture below is what your bar chart might look like.
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg)
 
 #### **Step 3: Adjust the Aesthetics** 
 
