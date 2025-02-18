@@ -79,8 +79,8 @@ Click on the bar you'd like removed and click "exclude" as shown below, and bam.
 Changing the colors on the bar graphs is simple! You're first going to click on the box with colored dots, then press edit colors, select the column you want to change, and choose your color! If that didn't make sense, the image below on the left has some arrows to guide you through the process! The image on the right is the final product. 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changingBarcolor.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg" width="45%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changingBarcolor.jpg" width="60%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg" width="30%" style="display: inline-block;">
 </p>
 
 
@@ -88,9 +88,9 @@ Changing the aesthetics of your graphics is a great way to display your creativi
 
 
 ### **Line Graph**
-Line graphs are most appropriate for visualizing data trends overtime. 
+Next, we are going to make a line graph. Line graphs have many uses, some of which include visualizing data trends over time, comparing multiple data series, highlighting rate of change, and detecting patterns and cycles.  
 
-For this graph, we are going to use [the Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data.
+If you want to follow along, we are going to switch from the Penguin data and use [the Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data to look at a Superstore's sales trends.
 
 Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Down below is an example of what it might look like for you!
 
