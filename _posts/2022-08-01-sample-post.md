@@ -56,9 +56,11 @@ I'm choosing three variables: species and sex (belonging to the column variables
 
 Drag and drop these variables from the "Table" section to the "Rows" and "Columns" boxes
 
-| ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg) | ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg) |
-|-------------------------------------------|-----------------------------------------|
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg)
 
+The picture below is what your bar chart might look like.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg)
 
 #### **Step 3: Adjust the Aesthetics** 
 
@@ -167,3 +169,9 @@ This is a very basic pie chart, but can get the job done if needs be!
 
 ## **That's All**
 I hope you found this basic tutorial helpful, I challenge you to go find another dataset and try making these graphics with your data! 
+
+
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="45%" style="display: inline-block;">
+</p>
