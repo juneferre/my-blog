@@ -57,7 +57,7 @@ Now you're going to choose the categories you want to compare! I'm choosing thre
 Drag and drop these variables from the "Table" section to the "Rows" and "Columns" boxes
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg.jpg" width="25%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="60%" style="display: inline-block;">
 </p>
 
@@ -70,8 +70,8 @@ If you have an element you would like to exclude, Tableau's interface makes it q
 Click on the bar you'd like removed and click "exclude" as shown below, and bam. It's gone. Below is a side by side of before (left) and after (right). 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg.jpg" width="25%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/afterExcludingOrange.jpg" width="60%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/afterExcludingOrange.jpg" width="45%" style="display: inline-block;">
 </p>
 
 
