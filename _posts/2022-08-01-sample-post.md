@@ -120,8 +120,8 @@ You want to grab the element of "dimmension" you want the pie chart to be separa
 Next, you're going to specifiy that you'll be using a pie chart. To do this you're going to select the arrow next to the "Automatic" drop down menu in the Marks box. Navigate to "Pie" and select it. You should end up with a pie chart separated into three equal parts (as shown on the right).
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/makepie.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/pie.jpg" width="60%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/makepie.jpg" width="40%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/pie.jpg" width="50%" style="display: inline-block;">
 </p>
 
 #### **Optional: Changing the Segment Separator**
@@ -129,7 +129,7 @@ Next, you're going to specifiy that you'll be using a pie chart. To do this you'
 I want to make my pie chart segments a little clearer, so I'm going to change my separating line to white. This is a matter of preference, so not necessary. Follow the arrows below to change the separators!
 
 <p align='center'>
-    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/separators.jpg" alt="Description" style="width:70%; height:auto;">
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/separators.jpg" alt="Description" style="width:50%; height:auto;">
 </p>
 
 ### **Step 3: Select Metric you want to drive your Pie Chart**
@@ -137,7 +137,7 @@ I want to make my pie chart segments a little clearer, so I'm going to change my
 I want to separate my pie chart by the Sales categories, so I'm going to select the "Sales" and drag and drop it onto "Detail". This is going to add Sales to the Angle, which will segment the pie chart proportional to the sum of sales for each category. 
 
 <p align='center'>
-    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/salesDet.jpg" alt="Description" style="width:70%; height:auto;">
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/salesDet.jpg" alt="Description" style="width:50%; height:auto;">
 </p>
 
 
@@ -148,7 +148,7 @@ Now we are going to convert the "Sales" metric to display as a percentage of tot
 To do this, you're going to click the arrow on the "SUM(Sales)". On that drop down menu, you'll hover over the "Quick Table Calculation", then select "Percent of Total". 
 
 <p align='center'>
-    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changetoPOT.jpg" alt="Description" style="width:70%; height:auto;">
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changetoPOT.jpg" alt="Description" style="width:40%; height:auto;">
 </p>
 
 It will look like no changes have been made to the pie chart, but don't worry! We're going to fix that in the next step. 
