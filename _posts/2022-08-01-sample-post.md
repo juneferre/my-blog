@@ -163,34 +163,36 @@ To change the angle proportions, you're going to drag the "SUM(angle)" element t
 </p>
 
 
-### **Step 5: Make labels**
-Move the metric to the label box to make a metric label. In my case, I'm using Sales.
+### **Step 5: Making labels**
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sumtolabel.jpg)
+A pie chart without labels or a legend, would be pretty meaningless, so we're going to add labels. We'll do this by dragging the metric (Sales) to the label box to make a metric label. You're labels will look like the screenshot on the right. 
 
-AFTER
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/label.jpg)
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/sumtolabel.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/label.jpg" width="45%" style="display: inline-block;">
+</p>
 
 #### **Changing Views**
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/bigview.jpg)
+We are now going to change the view of the pie chart to make it look bigger. To do that we are going to navigate to the "Standard" box in the top menu bar, select the arrow for the drop down menu, and select "Entire View". You'll end up with a magnified pie chart in the middle of your screen (as shown on the right).
+
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/standard.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/bigview.jpg" width="60%" style="display: inline-block;">
+</p>
+
 
 ### **Adding More Labels**
-You can add the dimmension label too!
+The numbers aren't very interpretable just on their own, so we are going to add the dimmension label too, to enhance clarity. 
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabel.jpg)
+To do that we are going to drag the "Segment" element to the Label box. You're finished product should something like the screenshot on the right! You know how to change the colors and other aesthetics, so feel free to play around with those things too. 
 
-After:
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabel.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/finished.jpg" width="45%" style="display: inline-block;">
+</p>
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabelafter.jpg)
 
-### **Finsished Product**
-This is a very basic pie chart, but can get the job done if needs be!
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/finished.jpg)
-
-## **That's All**
-I hope you found this basic tutorial helpful, I challenge you to go find another dataset and try making these graphics with your data! 
-
+## **That's It! You did it!**
+You now know the basics of simple Tableau data visualizations! As you can see, Tableau is a great, user-friendly way to make raw data meaningful. These charts are just the beginning of all the ways you can make your data meaningful. I hope you found this basic tutorial helpful! I challenge you to go find another dataset and try making these graphics with your data. Thanks for reading! 
 
