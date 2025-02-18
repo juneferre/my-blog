@@ -187,7 +187,10 @@ The numbers aren't very interpretable just on their own, so we are going to add 
 
 To do that we are going to drag the "Segment" element to the Label box. You're finished product should something like the screenshot on the right! You know how to change the colors and other aesthetics, so feel free to play around with those things too. 
 
-
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/segmentlabel.jpg" width="40%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/finished.jpg" width="50%" style="display: inline-block;">
+</p>
 
 
 ## **That's It! You did it!**
