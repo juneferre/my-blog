@@ -35,9 +35,9 @@ To select your data, you're going to navigate to your file on your computer, sel
 
 After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". This will take you to the page where we can make data visualizations.  
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg" alt="Description" style="width:65%; height:auto;">
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg)
+<p align='center'>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg" alt="Description" style="width:70%; height:auto;">
+</p>
 
 
 ### **Bar Chart**
@@ -57,7 +57,7 @@ Now you're going to choose the categories you want to compare! I'm choosing thre
 Drag and drop these variables from the "Table" section to the "Rows" and "Columns" boxes
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="60%" style="display: inline-block;">
 </p>
 
@@ -70,26 +70,22 @@ If you have an element you would like to exclude, Tableau's interface makes it q
 Click on the bar you'd like removed and click "exclude" as shown below, and bam. It's gone. Below is a side by side of before (left) and after (right). 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/excludingOrange.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/afterExcludingOrange.jpg" width="45%" style="display: inline-block;">
 </p>
 
 
 #### **Changing the colors**
-To change the bar colors, you click on the "Color" box in the "Marks" box.
+Changing the colors on the bar graphs is simple! You're first going to click on the box with colored dots, then press edit colors, select the column you want to change, and choose your color! If that didn't make sense, the image below on the left has some arrows to guide you through the process! The image on the right is the final product. 
 
-Follow the arrows to walk you through how to change the colors. 
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changingBarcolor.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg" width="45%" style="display: inline-block;">
+</p>
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/changingBarcolor.jpg)
 
-AFTER: 
+Changing the aesthetics of your graphics is a great way to display your creativity as well as stay organized and consistent in your data presentation. There are many more ways to alter and change your graphic! Feel free to explore a few, like the size or label. 
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/purplebar.jpg)
-
-There are many more ways to alter and change your graphic! Feel free to explore a few, like the size or label. 
-
-#### **Saving Your Work**
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/savingbar.jpg)
 
 ### **Line Graph**
 Line graphs are most appropriate for visualizing data trends overtime. 
