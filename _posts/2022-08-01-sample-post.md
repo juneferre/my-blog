@@ -14,6 +14,8 @@ Tableau is one of the most common data visualization tools used in a variety of 
 #### **Downloading Tableau and Basic Navigation**
  This tutorial is assuming you already have Tableau downloaded. If you're completely new to Tableau, I recommend you go watch [this YouTube video](https://www.youtube.com/watch?v=QYnkudCxbmE) on how to download Tableau Desktop and learn the basic navigation within the interface. I also wanted to preface that I'm using a Mac in this tutorial, so if you're using a Windows, steps might be slightly different.
 
+<br><br>
+
 ### **Importing Data**  
 
 #### **Choosing the File Format and Selecting your Data**
@@ -119,7 +121,6 @@ Luckily making bar charts and line charts are essentially the same processs, so 
 Pie Charts are used to show part-to-whole relationships, emphasizing proportions. These could be great for showing population demographics, budget allocation, sales distribution, survey results, and more! 
 
 Pie charts are slightly trickier than the bar chart and line graph, so I'm going to walk you through it step by step! If you're wanting to follow along with the same data, I'm going to be using the [Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data again. 
-
 
 
 ### **Step 1: Grab the dimmension you're going to use to separate the pie chart with**
