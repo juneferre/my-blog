@@ -27,7 +27,7 @@ My data (from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archip
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="60%" style="display: inline-block;">
 </p>
 
-
+<br><br>
 
 
 ### **Data Visualizations**
