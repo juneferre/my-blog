@@ -26,8 +26,8 @@ To select your data, you're going to navigate to your file on your computer, sel
 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="60%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="20%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="70%" style="display: inline-block;">
 </p>
 
 
