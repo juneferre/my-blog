@@ -163,7 +163,7 @@ To change the angle proportions, you're going to drag the "SUM(angle)" element t
 </p>
 
 
-### **Step 5: Making labels**
+### **Step 6: Making labels**
 
 A pie chart without labels or a legend, would be pretty meaningless, so we're going to add labels. We'll do this by dragging the metric (Sales) to the label box to make a metric label. You're labels will look like the screenshot on the right. 
 
@@ -171,6 +171,7 @@ A pie chart without labels or a legend, would be pretty meaningless, so we're go
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/sumtolabel.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
   <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/label.jpg" width="45%" style="display: inline-block;">
 </p>
+
 
 #### **Changing Views**
 
