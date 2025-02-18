@@ -17,7 +17,7 @@ Tableau is one of the most common data visualization tools used in a variety of 
 ### **Importing Data** 
 Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen.  
 
-#### **Step 1: Choosing the File Format and Selecting your Data**
+#### **Choosing the File Format and Selecting your Data**
 Look on the blue panel on the left of the screen and select the file format under the "To a File" subheading. 
 
 I got my Palmer Penguin data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data), which is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. 
@@ -31,7 +31,7 @@ To select your data, you're going to navigate to your file on your computer, sel
 </p>
 
 
-#### **Step 2: Data Visualizations**
+#### **Data Visualizations**
 
 After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". This will take you to the page where we can make data visualizations.  
 
@@ -92,47 +92,76 @@ Next, we are going to make a line graph. Line graphs have many uses, some of whi
 
 If you want to follow along, we are going to switch from the Penguin data and use [the Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data to look at a Superstore's sales trends.
 
-Luckily making bar charts and line charts are essentially the same processs, so you just have to repeat the steps from the bar chart instructions. Down below is an example of what it might look like for you!
+Luckily making bar charts and line charts are essentially the same processs, so you're just going to import your data, and then repeat steps 1-3 of the bar chart instructions. Make sure to use variables that deal with time and to select the line chart option. Down below is an example of what it might look like for you!
 
+<p align='center'>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/linechart.jpg" alt="Description" style="width:70%; height:auto;">
+</p>
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/linechart.jpg)
 
 ### **Pie Chart**
-Pie Charts are made slightly differently than line graphs and bar charts and are used to show part-to-whole relationships, emphasizing proportions. 
+Pie Charts are used to show part-to-whole relationships, emphasizing proportions. These could be great for showing population demographics, budget allocation, sales distribution, survey results, and more! 
 
-For this pie chart I'm going to be using the [Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data again. 
+Pie charts are slightly trickier than the bar chart and line graph, so I'm going to walk you through it step by step! If you're wanting to follow along with the same data, I'm going to be using the [Superstore Sales dataset](https://public.tableau.com/app/learn/sample-data?_gl=1*1628m6b*_ga*MTMzNTg4MDQ1My4xNzM4Njk5MzA5*_ga_8YLN0SNXVS*MTczODY5OTMwOC4xLjEuMTczODY5OTMwOS4wLjAuMA..) from Tableau's sample data again. 
+
+
 
 ### **Step 1: Grab the dimmension you're going to use to separate the pie chart with**
-I'm going to grab the "Segment" and drag and drop it into the "Color" box. 
+You want to grab the element of "dimmension" you want the pie chart to be separated by, and drag and drop it into the "color" boxI'm going to grab the "Segment" and drag and drop it into the "Color" box. You should end up with something like the screenshot on the right. 
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/segment.jpg)
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/segment.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/aftersegment.jpg" width="45%" style="display: inline-block;">
+</p>
 
-AFTER:
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/aftersegment.jpg)
 
 ### **Step 2: Specify that you want a Pie Chart**
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/makepie.jpg)
+Next, you're going to specifiy that you'll be using a pie chart. To do this you're going to select the arrow next to the "Automatic" drop down menu in the Marks box. Navigate to "Pie" and select it. You should end up with a pie chart separated into three equal parts (as shown on the right).
 
-AFTER
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/makepie.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/pie.jpg" width="60%" style="display: inline-block;">
+</p>
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/pie.jpg)
+#### **Optional: Changing the Segment Separator**
 
-### **Step 3: Select Metric you want to drive you Pie Chart**
+I want to make my pie chart segments a little clearer, so I'm going to change my separating line to white. This is a matter of preference, so not necessary. Follow the arrows below to change the separators!
 
-I'm going to choose "Sales" and drag and drop it onto "Detail".
+<p align='center'>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/separators.jpg" alt="Description" style="width:70%; height:auto;">
+</p>
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/salesDet.jpg)
+### **Step 3: Select Metric you want to drive your Pie Chart**
+
+I want to separate my pie chart by the Sales categories, so I'm going to select the "Sales" and drag and drop it onto "Detail". This is going to add Sales to the Angle, which will segment the pie chart proportional to the sum of sales for each category. 
+
+<p align='center'>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/salesDet.jpg" alt="Description" style="width:70%; height:auto;">
+</p>
 
 
 ### **Step 4: Change the Sales to Percentage of Total**
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/changetoPOT.jpg)
+Now we are going to convert the "Sales" metric to display as a percentage of total instead of raw values. This makes the pie chart more meaningful, as each segment will now represent its proportion of total sales rather than absolute numbers. 
+
+To do this, you're going to click the arrow on the "SUM(Sales)". On that drop down menu, you'll hover over the "Quick Table Calculation", then select "Percent of Total". 
+
+<p align='center'>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/changetoPOT.jpg" alt="Description" style="width:70%; height:auto;">
+</p>
+
+It will look like no changes have been made to the pie chart, but don't worry! We're going to fix that in the next step. 
 
 ### **Step 5: Change the angle**
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/sumtoangle.jpg)
+To change the angle proportions, you're going to drag the "SUM(angle)" element to the "Angle" box. After doing that, you're pie chart should have changed the proportions of the segments, looking something like the screenshot on the right.
+
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/sumtoangle.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/afterangle.jpg" width="45%" style="display: inline-block;">
+</p>
+
 
 ### **Step 5: Make labels**
 Move the metric to the label box to make a metric label. In my case, I'm using Sales.
@@ -165,7 +194,3 @@ This is a very basic pie chart, but can get the job done if needs be!
 I hope you found this basic tutorial helpful, I challenge you to go find another dataset and try making these graphics with your data! 
 
 
-<p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="45%" style="display: inline-block;">
-</p>
