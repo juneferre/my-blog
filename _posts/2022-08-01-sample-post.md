@@ -26,9 +26,10 @@ To select your data, you're going to navigate to your file on your computer, sel
 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="45%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="30%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg" width="60%" style="display: inline-block;">
 </p>
+
 
 #### **Step 2: Data Visualizations**
 
@@ -57,7 +58,6 @@ Drag and drop these variables from the "Table" section to the "Rows" and "Column
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg)
 
-The picture below is what your bar chart might look like.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg)
 
