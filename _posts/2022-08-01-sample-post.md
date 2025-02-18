@@ -172,6 +172,6 @@ I hope you found this basic tutorial helpful, I challenge you to go find another
 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="45%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="50%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="50%" style="display: inline-block;">
 </p>
