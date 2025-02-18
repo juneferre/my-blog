@@ -17,22 +17,21 @@ Tableau is one of the most common data visualization tools used in a variety of 
 ### **Importing Data** 
 Depending on your file type, you import your data by clicking on an option under the “To a File” subheading in the blue “Connect” sidebar on the left of the homescreen.  
 
-#### **Step 1: Choosing the File Format**
+#### **Step 1: Choosing the File Format and Selecting your Data**
 Look on the blue panel on the left of the screen and select the file format under the "To a File" subheading. 
 
 My data is in a .csv file so I am using the “more” option and selecting my data from a file on my computer. I got my Palmer Penguin data from [kaggle](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data).
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg)
+To select your data, you're going to navigate to your file on your computer, select the file, and click the "open" button. 
 
 
+<p align="center">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/wimportingdata2.jpg" width="45%" style="display: inline-block;">
+</p>
 
+#### **Step 2: Data Visualizations**
 
-#### **Step 2: Selecting your Data**
-Navigate to your file, select, and click the "open" button.
-
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/importingdata2.jpg)
-
-### **Data Visualizations**
 After importing the data, you'll be looking at a screen that looks something like the screenshot below. From there, you are going to find the bottom left corner of the screen and select the box that says "Sheet 1". This will take you to the page where we can make data visualizations.  
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/images/post1/goingtosheet.jpg)
@@ -172,6 +171,6 @@ I hope you found this basic tutorial helpful, I challenge you to go find another
 
 
 <p align="center">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="50%" style="display: inline-block; margin-right: 10px;">
-  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="50%" style="display: inline-block;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/columns_rows.jpg" width="45%" style="display: inline-block; margin-right: 10px;">
+  <img src="{{site.url}}/{{site.baseurl}}/assets/images/post1/withOrange.jpg" width="45%" style="display: inline-block;">
 </p>
