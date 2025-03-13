@@ -47,12 +47,51 @@ Depending on the question you are trying to answer/topic you're interested in, t
 
 
 #### **#2 Inspecting the Website**
+The first thing you want to ensure is that your browser will allow you to inspect the webpages. I know Safari doesn't offer this option, but Google Chrome does allow you to inspect a webpage. 
+
+The other thing you want to be familiar with is looking at the tags in the html code, and being able to know which tags indicate your desired data. 
 
 
+#### **#3 Setting up the Code**
+Scraping tables is rather easy, especially on Wikipedia, so I'm going to show you how I went about scraping [Wikipedia's 2018/2016 top 100 ranked Most Visited Cities Table](https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors).
 
-- Overly detailed accounts are not required (and discouraged)
+(This format can be a good outline of any web scraping code.)
 
-- Just provide enough info to help someone else potentially get started with a similar project
+```
+# import necessary packages
+import pandas as pd
+import requests 
+from bs4 import BeautifulSoup
+
+# defining the url we'll be using to scrape the table
+wiki_url = 'https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors'
+
+# saving the requests.get(wiki_url) to a variable, so we don't have to keep writing that
+r = requests.get(wiki_url)
+
+# extracts raw HTML text from the response object (r)
+text = r.text
+
+# passing the raw HTML text to Beautiful Soup which converts it to a structured format that makes data extraction easier
+soup = BeautifulSoup(r.text)
+
+# uses pandas to extract all HTM tables from the (wiki_url)
+tables = pd.read_html(wiki_url)
+
+# selects the third table from the list of tables 
+top_cities = tables[2]
+
+# removes the Na values
+top_cities = top_cities.dropna(subset= ['Rank (Euromonitor)'])
+
+# extracts the listed columns
+final_top = top_cities[['Rank (Euromonitor)', 'City', 'Country / Territory']]
+
+# saving this to a .csv file
+final_top.to_csv('top_cities.csv')
+
+```
+
 
 5. EDA highlights: summary statistics, summary graphics, and/or information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
 
