@@ -4,9 +4,13 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
 
-Hi there! I'm a full-time student at **Brigham Young University**, majoring in **Statistics** with an emphasis in **Data Science**. I'm passionate about uncovering insights from messy data and transforming it into something meaningful—and maybe even beautiful.
+<img src="/assets/aboutme.jpg" alt="Photo of June Ferre" style="width: 180px; border-radius: 10px;">
+
+<div>
+
+Hi there! My name is June and I'm a full-time student at **Brigham Young University**, majoring in **Statistics** with an emphasis in **Data Science**. I'm passionate about uncovering insights from messy data and transforming it into something meaningful—and maybe even beautiful.
 
 This blog actually started as a class project, but somewhere between debugging code and designing visualizations, I realized how much I *love* exploring the world of data science. It’s become a creative outlet where I get to learn, experiment, and share what I discover along the way.
 
