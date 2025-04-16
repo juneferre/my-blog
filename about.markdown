@@ -6,7 +6,7 @@ permalink: /about/
 
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
 
-<img src="/assets/aboutme.jpg" alt="Photo of June Ferre" style="width: 180px; border-radius: 10px;">
+<img src="/my-blog/assets/aboutme.jpg" alt="Photo of June Ferre" style="width: 180px; border-radius: 10px;">
 
 <div>
 
